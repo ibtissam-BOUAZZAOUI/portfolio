@@ -1,0 +1,283 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ibtissam Bouazzaoui – Développeuse Web & Data</title>
+  <meta name="description" content="Portfolio de Ibtissam Bouazzaoui – Développeuse Web & Data (alternance). Projets full-stack, data, IA." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container nav">
+      <a class="brand" href="#top">Ibtissam<span>.</span></a>
+
+      <button class="burger" aria-label="Ouvrir le menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="menu" aria-label="Navigation principale">
+        <a href="#services">Services</a>
+        <a href="#projects">Projets</a>
+        <a href="#formation">Formation</a>
+        <a class="btn small" href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="badge">Alternance – Septembre 2026</p>
+          <h1>Développeuse <span class="accent">Web & Data</span></h1>
+          <p class="lead">
+            Je conçois des applications web modernes et j’exploite la donnée
+            pour créer des outils d’aide à la décision. Intérêt : full-stack, data, IA.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn" href="#projects">Voir mes projets</a>
+            <a class="btn ghost" href="#contact">Me contacter</a>
+          </div>
+
+          <div class="chips">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+            <span>React</span><span>Node.js</span><span>Express</span><span>PHP</span>
+            <span>SQL</span><span>MongoDB</span>
+          </div>
+
+          <div class="links">
+          
+            <a href="https://github.com/ibtissam-BOUAZZAOUI" target="_blank" rel="noreferrer">GitHub</a>
+            <span>•</span>
+            <a href="https://fr.linkedin.com/in/ibtissam-bouazzaoui-83976a23b" target="_blank" rel="noreferrer">LinkedIn</a>
+          </div>
+        </div>
+
+        <div class="card profile">
+          <div class="profile-top">
+            <div>
+              <h2>Ibtissam Bouazzaoui</h2>
+              <p class="muted">Île-de-France • Dév Web & Data</p>
+            </div>
+          </div>
+
+          <div class="profile-list">
+            <div><strong>+1</strong> an d’expériences (stages & projets)</div>
+            <div><strong>Full-stack</strong> & API</div>
+            <div><strong>Data</strong> & dashboards</div>
+          </div>
+
+          <a class="btn full" href="#contact">Disponible pour une alternance</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Services</h2>
+          <p class="muted">Ce que je peux apporter en entreprise.</p>
+        </div>
+
+        <div class="grid3">
+          <article class="card">
+            <h3>Développement Full-Stack</h3>
+            <p>Interfaces web, logique métier, API REST, intégration base de données.</p>
+            <p class="tags"><span>JS</span><span>React</span><span>Node</span><span>Express</span><span>PHP</span></p>
+          </article>
+
+          <article class="card">
+            <h3>Data & Tableaux de bord</h3>
+            <p>Collecte, structuration, requêtes SQL, visualisation et indicateurs.</p>
+            <p class="tags"><span>SQL</span><span>ETL</span><span>Snowflake</span><span>Tableau</span></p>
+          </article>
+
+          <article class="card">
+            <h3>IA appliquée</h3>
+            <p>Automatisation, analyse, modèles ML/DL et intégration dans des solutions.</p>
+            <p class="tags"><span>Python</span><span>Scikit-learn</span><span>TensorFlow</span></p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Projets</h2>
+          <p class="muted">Quelques réalisations (stages & académiques).</p>
+        </div>
+
+        <div class="grid3">
+          <!-- Projet 1 -->
+          <article class="card project"
+  data-title="Application web – Recrutement des tuteurs"
+  data-desc="Application web pour dématérialiser le processus de recrutement des tuteurs. Développement front/back, gestion des données et opérations CRUD."
+  data-tech="HTML, CSS, JavaScript, Node.js/Express ou PHP, SQL"
+  data-link="#"
+  data-images="assets/candidater.png|assets/candacc.png|assets/gererabss.png|assets/plan.png">
+
+    <div class="thumb">
+  <img class="thumb-img" src="assets/candidater.png" alt="Capture projet recrutement">
+</div>
+
+  <h3>Application web – Recrutement</h3>
+  <p class="muted">Full-stack • CRUD • Base de données</p>
+  <button class="btn ghost small open">Détails</button>
+</article>
+
+          <!-- Projet 4 -->
+          <article class="card project" data-title="Analyseur de sentiments de tweets"
+          data-desc="Développement d’une application web permettant de rechercher des tweets via l’API Twitter, d’analyser automatiquement leur sentiment (positif, négatif ou neutre) et d’afficher les résultats dans une interface React."
+                   data-tech="React, Node.js, Express, MongoDB, API Twitter, bibliothèque sentiment."
+                   data-link="https://github.com/ibtissam-BOUAZZAOUI/sentiment-analyzer"
+                   data-images="assets/analysersenia.png|assets/ianegneutreposi.png|assets/reactpostnegneutre.png">
+            <div class="thumb"><img class="thumb-img" src="assets/analysersenia.PNG" alt="Capture projet tweet"></div>
+            <h3>Analyseur de sentiments</h3>
+            <p class="muted">NLP • ML</p>
+            <button class="btn ghost small open">Détails</button>
+          </article>
+          <!-- Projet 2 -->
+          <article class="card project" data-title="Analyse de logs – Détection d’anomalies"
+                   data-desc="Système d’analyse de logs pour automatiser la détection d’anomalies : préparation des données, analyse, tests et restitution."
+                   data-tech="Python, ML, SQL"
+                   data-link="#"
+                   data-images="assets/LogoTroubleshootIQ.png|assets/troublshot1.png|assets/troublshot2.png|assets/troublshot3.png|assets/troublshot4.png">
+            <div class="thumb"><img class="thumb-img" src="assets/LogoTroubleshootIQ.png" alt="Capture projet analyse de logs"></div>
+            <h3>Analyse de logs – IA</h3>
+            <p class="muted">Data • Anomalies • ML</p>
+            <button class="btn ghost small open">Détails</button>
+          </article>
+
+          <!-- Projet 3 -->
+          <article class="card project" data-title="Classification d’images – Prédiction temps réel"
+                   data-desc="Modèle de classification d’images et prédiction en temps réel"
+                   data-tech="TensorFlow/Keras, OpenCV, python,CNN"
+                   data-link="#"
+                   data-images="assets/dogtest.png|assets/testreel.png">
+            <div class="thumb"><img class="thumb-img" src="assets/dogtest.png" alt="Capture projet classification d'images"></div>
+            <h3>Classification d’images</h3>
+            <p class="muted">Deep learning • Vision</p>
+            <button class="btn ghost small open">Détails</button>
+          </article>
+
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Formation -->
+    <section id="formation" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Formation</h2>
+          <p class="muted">Parcours universitaire.</p>
+        </div>
+
+        <div class="timeline">
+          <div class="t-item">
+            <div class="dot"></div>
+            <div class="card">
+              <h3>Master 2 – Ingénierie en Intelligence Artificielle</h3>
+              <p class="muted">Université Paris 8 • 2025–2026</p>
+            </div>
+          </div>
+
+          <div class="t-item">
+            <div class="dot"></div>
+            <div class="card">
+              <h3>Master 1 – Informatique & Big Data</h3>
+              <p class="muted">Université Paris 8 • 2024–2025</p>
+            </div>
+          </div>
+
+          <div class="t-item">
+            <div class="dot"></div>
+            <div class="card">
+              <h3>Licence – Informatique (Systèmes embarqués & interactifs)</h3>
+              <p class="muted">Université Paris 8 • 2023–2024</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+  <section id="contact" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Contact</h2>
+          <p class="muted">Écris-moi, je réponds rapidement.</p>
+        </div>
+
+        <div class="grid2">
+          <div class="card">
+            <h3>Coordonnées</h3>
+            <p><strong>Email :</strong> <a href="mailto:ibtissambouazzaoui2003@gmail.com">ibtissambouazzaoui2003@gmail.com</a></p>
+            <p><strong>Téléphone :</strong> 07 44 40 61 38</p>
+            <p><strong>Localisation :</strong> Île-de-France</p>
+            <p class="tags"><span>Alternance</span><span>Septembre 2026</span></p>
+            <div class="links">
+              <a href="https://github.com/ibtissam-BOUAZZAOUI" target="_blank" rel="noreferrer">GitHub</a>
+              <span>•</span>
+              <a href="https://fr.linkedin.com/in/ibtissam-bouazzaoui-83976a23b" target="_blank" rel="noreferrer">LinkedIn</a>
+            </div>
+          </div>
+
+         <!--  <form class="card" id="contactForm">
+  <h3>Message</h3>
+
+  <label>
+    Nom
+    <input type="text" name="from_name" required placeholder="Ton nom" />
+  </label>
+
+  <label>
+    Email
+    <input type="email" name="from_email" required placeholder="ton@email.com" />
+  </label>
+
+  <label>
+    Message
+    <textarea name="message" rows="5" required placeholder="Bonjour Ibtissam, je vous contacte pour..."></textarea>
+  </label>
+
+  <button type="submit" class="btn full">Envoyer</button>
+  <p id="status" class="muted small"></p>
+</form>-->
+
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p class="muted small">© <span id="year"></span> Ibtissam Bouazzaoui • Portfolio</p>
+    </div>
+  </footer>
+
+  <!-- Modal projet -->
+  <div class="modal" aria-hidden="true">
+    <div class="modal-card" role="dialog" aria-modal="true" aria-label="Détails du projet">
+      <button class="close" aria-label="Fermer">×</button>
+      <img class="modal-img" alt="" />
+      <h3 class="modal-title"></h3>
+      <p class="modal-desc"></p>
+      <p class="modal-tech"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+</body>
+</html>
